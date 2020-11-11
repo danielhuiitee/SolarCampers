@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.3);
+}
+
+.carousel-caption {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.4);
+}
+
+.carousel-caption p {
+	font-size: 12px;
+}
+
+.companyInfo {
+	#text-transform: uppercase;
+	color: #e1e3e6;
+	color: black;
+	text-align: center;
+	font-size: 1.8em;
+    background-color: #1d293b;
+    background-color: #ededed;
+    background-color: #e8e8e8;
+	padding: 1.0em 2em 1.0em 2em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container-body {
+	margin-top: 5em;
+	margin-bottom: 10em;
+}
+
+.navbar {
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.navbar-title {
+    font-family: 'Fredoka One', cursive; 
+    font-size: 24px;
+}
+
+
+
+
+.photoGrid {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.photoGrid .col {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.photoGrid .col img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.text1 {
+	font-size: 1.3em;
+	margin-top: 2em;
+	margin-bottom: 5em;
+}
+
+.text2 {
+	color: #565656 !important
+}
+
+.title-color1 {
+	color: #913714;
+}
+
+.title-color2 {
+	color: #24211f;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photoGrid .col {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .photoGrid .col {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
