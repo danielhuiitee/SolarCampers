@@ -33,15 +33,15 @@ body {
 
 .companyInfo {
 	#text-transform: uppercase;
-	color: #e1e3e6;
-	color: black;
+	color: #ebf0f7;
 	text-align: center;
-	font-size: 1.8em;
-    background-color: #1d293b;
-    background-color: #ededed;
-    background-color: #e8e8e8;
-	padding: 1.0em 2em 1.0em 2em;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.3em;
+    background-color: #121212;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	#font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+
 }
 
 .container-body {
@@ -52,7 +52,7 @@ body {
 .navbar {
 	font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
-    margin-left: 20px;
+    border-bottom: 1px solid #243142;
 }
 
 .navbar-title {
@@ -129,5 +129,13 @@ body {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+  }
+
+  .companyInfo {
+    font-size: 1.0em;
+  }
+
+  .carousel {
+    display: none;
   }
 }

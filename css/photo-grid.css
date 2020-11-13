@@ -9,7 +9,7 @@ img:hover {opacity: 0.7;}
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 1000; /* Sit on top */
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
@@ -26,6 +26,7 @@ img:hover {opacity: 0.7;}
   display: block;
   width: 70%;
   max-width: 700px;
+  z-index: 1000;
 }
 
 /* Caption of Modal Image */
@@ -46,6 +47,7 @@ img:hover {opacity: 0.7;}
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
   animation-duration: 0.6s;
+  z-index: 1000;
 }
 
 @-webkit-keyframes zoom {
